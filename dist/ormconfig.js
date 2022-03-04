@@ -8,7 +8,7 @@ const config = {
     password: '123',
     database: 'kaf305_api',
     entities: [__dirname + '/**/*.entity{.ts,.js}'],
-    synchronize: false,
+    synchronize: true,
     migrations: [__dirname + '/migrations/**/*{.ts,.js}'],
     cli: {
         migrationsDir: 'src/migrations',
