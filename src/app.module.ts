@@ -10,6 +10,7 @@ import { MembersModule } from './members/members.module';
 import { PublicationsModule } from './publications/publications.module';
 import { HomePageModule } from './home-page/home-page.module';
 import { ScheduleModule } from './schedule/schedule.module';
+import { NewsModule } from './news/news.module';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { ScheduleModule } from './schedule/schedule.module';
     PublicationsModule,
     HomePageModule,
     ScheduleModule,
+    NewsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
